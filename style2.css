@@ -206,7 +206,7 @@ a {
         padding: 6px 5% 6px 7%; 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(9, 1fr);
+        grid-template-rows: repeat(10, 1fr);
         align-items: center;
         justify-content: center;
         margin: 10px 10% 10px 10%;
@@ -300,17 +300,23 @@ button:hover {
     margin-top: 30px;
 }
 /* images*/
+#Myfam {
+    align-items: center;
+    justify-content: center;
+}
 .container1 {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .gallery {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .img-box {
     width: 100px;
